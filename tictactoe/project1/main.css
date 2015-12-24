@@ -1,0 +1,46 @@
+
+body {
+background-color: black;
+width: 100%;
+text-align: center;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  font-family: 'Inknut Antiqua', serif;
+}
+
+#content{
+	margin:auto;
+  width:auto;
+	text-align:center;
+}
+
+#item:hover,.button:hover {
+	border:2px solid gold;
+	cursor:pointer
+}
+
+#item{
+	background-color:white;
+	padding:5px;
+	text-align:center;
+	font-size:10px;
+	margin-top:15px;
+	border:1px solid #666;
+  border-radius: 30%;
+	width: 55px;
+	height: 55px;
+  font-family: 'Inknut Antiqua', serif;
+  background-position: center;
+  margin:auto;
+  margin-bottom: 10px;
+}
+
+
+h2 {
+  color: white;
+}

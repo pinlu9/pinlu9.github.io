@@ -1,0 +1,102 @@
+body{
+	margin:0;
+	padding:0;
+	box-sizing :border-box;
+  width: 100%;
+  background-color: black;
+
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  font-family: 'Inknut Antiqua', serif;
+}
+
+
+#main {
+  margin: 10px auto;
+	width: 366px;
+  height: 366px;
+  background: white;
+  text-align: center;
+}
+
+
+.main, .options{
+	width:300px;
+	margin:20px auto;
+	overflow: auto;
+}
+
+
+.box {
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+
+}
+.box{
+	float:left;
+	width:120px;
+	height:120px;
+  text-align: center;
+  color: black;
+  font-size: 100px;
+  font-weight: bolder;
+
+}
+
+
+.box:hover{
+	background-color: lightgrey;
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 50px;
+  font-weight: bolder;
+  color: grey;
+}
+
+.playerText{
+
+  font-size: 50px;
+  color: white;
+	text-align: center;
+}
+
+
+
+
+#item, .restart {
+	background-color:white;
+	padding:5px;
+	text-align:center;
+	font-size:10px;
+	margin-top:15px;
+	border:1px solid #666;
+  border-radius: 30%;
+	width: 55px;
+	height: 55px;
+  font-family: 'Inknut Antiqua', serif;
+  background-position: center;
+  margin:auto;
+  margin-bottom: 10px;
+}
+#content{
+	margin:auto;
+  width:auto;
+	text-align:center;
+
+}
+.restart {
+	width: 60px;
+	height: 60px;
+
+
+
+}
+
+#item:hover,.button:hover {
+	border:2px solid gold;
+	cursor:pointer
+}
